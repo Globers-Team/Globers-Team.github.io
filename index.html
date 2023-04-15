@@ -1,27 +1,71 @@
-<html lang="pl">	
-	<head>
-		<meta charset="utf-8"/>
-		<title>Globers Team website</title> 
-		<style>		
-			body {
-				background-color: rgb(212, 144, 17);
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-			}
-		</style>
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Globest Team | Game Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#games">Our Games</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img src="logo.png" alt="Globest Team Logo">
+    </div>
+  </header>
 
-    <body>
-<p style="font-size: 1px;">Easter egg</p>
-		<h1 style="background-color:DodgerBlue;color:rgb(23, 102, 91);border:2px solid Tomato;">Strona Główna</h1>
-		<h6>Strona Główna</h6>
-		<a>Witaj na Stronie Globers Teamu </a>
-		<p>Pod spodem znajdziesz linki do naszych innych projektów</p>
-		<p>Mam nadzieję, że sie wam spodobają.</p>
-		<a style="color: rgb(79, 192, 45);" href="globshooter.html"><img src="globshooterlogo.png" width="280" height="280" title="Glob Shooter"> </a>
-        <a style="color: rgb(79, 192, 45);" href="scprcm.html"><img src="scplogo.png" width="550" height="250" title="SCP: The Recontainment Mission"> </a>
-        <a style="color: rgb(79, 192, 45);" href="blachsmith.html"><img src="blacksmith.png" width="250" height="250" title="BlackSmith Simulator"> </a>
-        <a style="color: rgb(79, 192, 45);" href="Barrefour.html"><img src="Barrefour.png" width="250" height="250" title="Barrefour"> </a>
-		<br>
+  <main>
+    <section id="about">
+      <h1>About Us</h1>
+      <p>Globest Team is a game studio that focuses on creating unique and fun gaming experiences. Our team is made up of passionate gamers and developers who love what they do. We strive to push the boundaries of what is possible in gaming, and we are always looking for new and exciting ideas.</p>
+      <p>At Globest Team, we believe that games should be fun for everyone. That's why we create games that are accessible to players of all skill levels. Whether you're a seasoned gamer or just getting started, we have a game for you.</p>
+    </section>
 
+    <section id="games">
+      <h1>Our Games</h1>
+      <div class="game">
+        <img src="globshooterlogo.png" alt="Glob shooter">
+        <h2>Glob shooter</h2>
+        <p>A fun and fast-paced action game where you play as a team of cute and colorful creatures called Globers.</p>
+      </div>
+      <div class="game">
+        <img src="Barrefour.png" alt="Bearfur">
+        <h2>Bearfur</h2>
+        <p>An adventure game where you play as a bear on a quest to find a new home in a dangerous and mysterious world.</p>
+      </div>
+      <div class="game">
+        <img src="blacksmith.png" alt="Blacksmith Simulator">
+        <h2>Blacksmith Simulator</h2>
+        <p>A simulation game where you run your own blacksmith shop, creating weapons and armor for adventurers and warriors.</p>
+      </div>
+      <div class="game">
+        <img src="scplogo.png" alt="SCP: The Recontainment Mission">
+        <h2>SCP: The Recontainment Mission</h2>
+        <p>A horror game where you play as a member of the SCP Foundation, tasked with containing and studying dangerous anomalies.</p>
+      </div>
+    </section>
 
-    </body>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Globest Team. All rights reserved.</p>
+  </footer>
+</body>
+</html>
