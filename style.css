@@ -136,9 +136,20 @@
   /* Footer styles */
   footer {
     text-align: center;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 1rem;
     margin-top: 2rem;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   }
   
+  .button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 160px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
