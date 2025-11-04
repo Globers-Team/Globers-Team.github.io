@@ -163,8 +163,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #00ffb3;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    /*padding: 1rem;*/
     margin-bottom: 1rem;
   }
