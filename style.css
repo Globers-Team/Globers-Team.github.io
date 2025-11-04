@@ -168,5 +168,6 @@
     /*padding: 1rem;*/
     margin-bottom: 1rem;
     border: #0095ff;
-    border-top: 10px;
+    border-style: solid;
+    border-top-width: 10px;
   }
