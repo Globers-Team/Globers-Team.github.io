@@ -164,10 +164,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /*padding: 1rem;*/
     margin-bottom: 1rem;
-    border: #0095ff;
+   /* border: #0095ff;
     border-style: solid;
-    border-top-width: 10px;
+    border-top-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;*/
+  }
+
+  hr.new1 {
+  border-top: 5px solid red;
   }
