@@ -1,150 +1,151 @@
 /* Reset styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #f5f5f5;
-  }
-  
-  a {
-    color: #0077cc;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Header styles */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-right: 1rem;
-  }
-  
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-  
-  nav ul li a {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  }
-  
-  .logo {
-    flex-grow: 1;
-    text-align: center;
-  }
-  
-  /* Main styles */
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  section {
-    margin-bottom: 2rem;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .game {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .game img {
-    max-width: 200px;
-    margin-right: 2rem;
-  }
-  
-  .game h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .game p {
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Contact form styles */
-  form label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  form input,
-  form textarea {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem;
-  }
-  
-  form input[type="submit"] {
-    background-color: #0077cc;
-    color: #fff;
-    border: none;
-    border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-  }
-  
-  form input[type="submit"]:hover {
-    background-color: #005fa3;
-  }
-    
-  /* Footer styles */
-  footer {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 1rem;
-    margin-top: 2rem;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .button {
-  position:relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.logo {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Main styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.game img {
+  max-width: 200px;
+  margin-right: 2rem;
+}
+
+.game h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.game p {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact form styles */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+form input[type="submit"] {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #313131;
+  color: #ffffff;
+}
+
+.button {
+  position: relative;
   border: none;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -157,29 +158,30 @@
   cursor: pointer;
   background-color: rgba(255, 0, 0, 0.534);
   width: 100%;
-  }
+}
 
-  .details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    margin-bottom: 1rem;
-  }
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+}
 
-  hr.line1 {
+hr.line1 {
   border-top: 5px solid rgb(0, 0, 0);
-  }
+}
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("agarthah.png");
-  height: 100%;  background-position: center;
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 300px;
-  padding-bottom: 500px;
+  height: 500px;
+  display: flex;
 }
 
 .hero-text {
@@ -204,5 +206,52 @@
 
 .hero-text button:hover {
   background-color: #555;
+  color: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: #313131;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
   color: white;
 }
