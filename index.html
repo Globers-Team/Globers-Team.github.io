@@ -3,51 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Globers Team | Game Studio</title>
+  <title>Globers Team | Home</title>
   <link rel="stylesheet" href="mainStyle.css">
   <script src="script.js"></script>
 </head>
 
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#games">Our Games</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-    <div class="logo">
-      <img src="icons/logo.png" alt="Globers Team Logo" width="64" height="64">
-    </div>
+<body onload="setTheme()">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <div class="logo">
+    <img src="icons/logo.png" alt="Globers Team Logo" width="64" height="64">
+  </div>
   </header>
 
   <main>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/0B7y82ZZbHG78iez5nvC73?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <section id="about">
-      <h1>About Us</h1>
-      <p>One person doing trash games. Well, there is a second 'member' but he is only responsible for music.</p>
-      <p>Don't even bother playing them, it's a waste of time.</p>
-    </section>
-    <button onclick="toggleDarkMode()" style="padding: 10px 20px;">Toggle dark mode</button>
+      <h1>Globers Team</h1>ip
 
     <section id="games">
-      <h1>Our Games</h1>
+      <h1>Our Game</h1>
       <div class="game">
         <img src="icons/globshooter2logo.png" alt="Glob Shooter 2" width="173.5" height="173.5">
         <h2>Glob Shooter 2</h2>
-        <!--<p>Extremely good game, winner of every goty award for over 25 years. 30000 billion copies have been sold already. Profit is estimated to be around 4,5zl.</p>-->
-        <a href="game.html"><button style="padding: 15px 30px;">See game page</button></a>
       </div>
-    </section>
-    <section id="contact">
-      <h1>Contact Us</h1>
-      <p>If you wonder about our email, here it is: jaus20010911@gmail.com</p>
     </section>
   </main>
   <footer>
     <p>&copy; 2025 Globers Team. All rights reserved.</p>
     <ul style="list-style-type: none;">
       <li><a href="about.html">About us</a></li>
+      <!--<li><a href="how.html">How this site was created</a></li>-->
     </ul>
   </footer>
   </div>

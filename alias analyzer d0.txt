@@ -1,0 +1,18 @@
+alias analyzer d0
+alias regulator d1
+alias mixer d2
+alias gen d3
+alias sensor d4
+alias receiver d5
+
+start:
+l r0 analyzer Pressure
+l r1 regulator Setting
+l r3 gen On
+l r5 sensor Temperature
+l r6 receiver Setting
+slt r2 r0 r1
+s mixer On r2
+slt r4 r5 330
+s gen On r4
+j start

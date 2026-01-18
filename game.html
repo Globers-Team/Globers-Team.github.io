@@ -3,61 +3,70 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Globers Team | Game Studio</title>
+  <title>Globers Team | Glob Shooter 2</title>
   <link rel="stylesheet" href="mainStyle.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
-  <header>
+
+  <body onload="setTheme()">
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!--<header>
     <nav>
       <ul>
         <li><a href="#about">About Us</a></li>
         <li><a href="#games">Our Games</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
-    </nav>
+    </nav>-->
+
     <div class="logo">
       <img src="icons/logo.png" alt="Globers Team Logo" width="64" height="64">
     </div>
-  </header>
+    </header>
 
-  <main>
+    <main>
 
-    <section id="games">
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1 style="font-size:50px">this is shit</h1>
-          <p>dont download this game</p>
-          <p style="font-size:10px">this image is shifted</p>
+      <section id="games">
+        <div class="hero-image">
+          <div class="hero-text">
+            <h1 style="font-size:50px">this is shit</h1>
+            <p>dont download this game</p>
+            <p style="font-size:10px">this image is shifted</p>
+          </div>
         </div>
-      </div>
-      <div class="game">
-        <img src="icons/globshooter2logo.png" alt="Glob Shooter 2">
-        <h2>Glob Shooter 2</h2>
-        <p>This is an extremely good game, winner of every goty award for over 25 years. 30000 billion
-          copies have been sold already. Profit is estimated to be around 4,5zl.</p>
+        <div class="game" id="gameID">
+          <img src="icons/globshooter2logo.png" alt="Glob Shooter 2">
+          <h2>Glob Shooter 2</h2>
+          <p>This is an extremely good game, winner of every goty award for over 25 years. 30000 billion
+            copies have been sold already. Profit is estimated to be around 4,5zl.</p>
+          <a href="index.html"><button style="padding: 10px 10px;">Go back</button></a>
+          <div class="details">
+          <p>Creators:<br>
+            &nbspEverything except music: <b>Glob</b><br>
+            &nbspMusic: <b>Szypob</b>
+          </p>
+        </div>
+        </div>
+      </section>
+    </main>
 
-
-        <a href="index.html"><button>Go back</button></a>
-      </div>
-      <hr class="line1">
-      <div class="details">
-        <p alt="">Creators:<br>
-          &nbspEverything except music: <b>Glob</b><br>
-          &nbspMusic: <b>Szypob</b>
-        </p>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h1>Contact Us</h1>
-      <p>If you wonder about our email, here it is: jaus20010911@gmail.com</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Globers Team. All rights reserved.</p>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; 2025 Globers Team. All rights reserved.</p>
+      <ul style="list-style-type: none;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </footer>
+  </body>
 
 </html>
